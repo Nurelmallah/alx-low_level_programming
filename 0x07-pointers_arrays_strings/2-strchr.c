@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _strspn - calculates the length of a matching prefix
- * @s: the string to search
- * @accept: the characters to match in s
+ * _strspn - calculates the length of a prefix substring
+ * @s: the string to be evaluated
+ * @accept: the string containing the characters to match in s
  *
- * Return: number of characters at the start of s that match those in accept
+ * Return: the number of bytes in the initial segment
+ * of s that consist of characters from accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -32,4 +33,3 @@ unsigned int _strspn(char *s, char *accept)
 
 	return (0);
 }
-
