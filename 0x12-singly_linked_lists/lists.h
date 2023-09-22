@@ -13,6 +13,6 @@ typedef struct list_s
 
 /* Function prototypes */
 size_t print_list(const list_t *h);
-/* Add more function prototypes here if needed */
+size_t list_len(const list_t *h);
 
 #endif /* LISTS_H */
